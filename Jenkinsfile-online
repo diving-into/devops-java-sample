@@ -17,6 +17,7 @@ pipeline {
         DOCKERHUB_NAMESPACE = 'fancyry'
         GITHUB_ACCOUNT = 'diving-into'
         APP_NAME = 'devops-java-sample'
+        SONAR_CREDENTIAL_ID = 'sonar-token'
     }
 
     stages {
